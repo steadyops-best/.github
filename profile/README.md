@@ -3,19 +3,16 @@
 SteadyOps publishes practical DevOps/SRE guides and reusable production-reliability artifacts for teams that need safer releases, tested recovery, clearer ownership, and evidence that operational controls work outside a document.
 
 - Website: https://steadyops.best/
-- Practical guides: https://steadyops.best/articles/
-- Reusable resources: https://steadyops.best/resources/
-- Reliability capabilities: https://steadyops.best/advantages/
-- Reliability cases: https://steadyops.best/reliability-cases/
-- DevOps Copilot: https://steadyops.best/devops-copilot/
-- Public engineering roadmap: https://github.com/steadyops-best/.github/blob/main/PUBLIC_REPOSITORY_ROADMAP.md
+- [DevOps/SRE implementation guides](https://steadyops.best/articles/)
+- [Open-source reliability tools and checklists](https://steadyops.best/resources/)
+- [Public engineering repository roadmap](https://github.com/steadyops-best/.github/blob/main/PUBLIC_REPOSITORY_ROADMAP.md)
 
 ## Public engineering resources
 
 | Repository | Tested utility | What it helps a team prove | Canonical guide |
 |---|---|---|---|
-| [Kubernetes Rollback Checklist](https://github.com/steadyops-best/kubernetes-rollback-checklist) | Read-only rollout evidence collector with unit tests and CI | A failed rollout can be stopped, reversed, and validated without guessing. | [Kubernetes rollback guide](https://steadyops.best/articles/kubernetes-rollback-checklist-for-production-deployments/) |
-| [Disaster Recovery Runbook Template](https://github.com/steadyops-best/disaster-recovery-runbook-template) | Deterministic DR readiness scoring CLI with sample input, tests, and CI | Recovery has owners, stop conditions, measurable RPO/RTO, validation, and drill evidence. | [HA/DR runbook guide](https://steadyops.best/articles/ha-dr-runbooks/) |
+| [Kubernetes Rollback Checklist](https://github.com/steadyops-best/kubernetes-rollback-checklist) | Read-only rollout evidence collector with unit tests and CI | A failed rollout can be stopped, reversed, and validated without guessing. | [Kubernetes rollback implementation guide](https://steadyops.best/articles/kubernetes-rollback-checklist-for-production-deployments/) |
+| [Disaster Recovery Runbook Template](https://github.com/steadyops-best/disaster-recovery-runbook-template) | Deterministic DR readiness scoring CLI with sample input, tests, and CI | Recovery has owners, stop conditions, measurable RPO/RTO, validation, and drill evidence. | [Disaster recovery runbook guide](https://steadyops.best/articles/ha-dr-runbooks/) |
 | [Zero-Downtime Deployment Checklist](https://github.com/steadyops-best/zero-downtime-deployment-checklist) | Deterministic release safety gate with sample input, tests, and CI | Readiness, compatibility, traffic switching, rollback, and release evidence are defined before production change. | [Zero-downtime deployment guide](https://steadyops.best/articles/zero-downtime-bluegreen-deployments/) |
 
 The repositories contain forkable operational files and tested utilities. Pull requests compile the tools and run unit tests. Tagged versions are designed to produce packaged GitHub Releases with SHA-256 checksums. The linked SteadyOps articles remain the maintained implementation guides with failure-mode analysis, configuration examples, validation criteria, official references, and related decision paths.
@@ -46,20 +43,16 @@ SteadyOps artifacts follow a consistent operating model:
 
 ## Start with the production problem
 
-- PostgreSQL failover or restore uncertainty: https://steadyops.best/postgresql-ha-review/
-- SaaS team needing senior DevOps/SRE ownership: https://steadyops.best/devops-sre-for-saas/
-- Online store or active web application operations: https://steadyops.best/webops-plus/
-- WordPress, PHP, VPS, or small-business website reliability: https://steadyops.best/website-reliability-care/
-- Unsure which path fits: https://steadyops.best/reliability-cases/
+Use the [PostgreSQL HA and failover review](https://steadyops.best/postgresql-ha-review/) when failover, restore, Patroni, PgBouncer, or routing is uncertain. For other production risks, start with the [SteadyOps reliability case library](https://steadyops.best/reliability-cases/) and choose the closest operating scenario.
 
 ## Author and public identity
 
 SteadyOps is led by Yuri Osipov, Founder & Principal DevOps/SRE.
 
-- Profile: https://steadyops.best/team/yuri-osipov/
-- LinkedIn: https://www.linkedin.com/in/yuri-osipov-0876b0254
-- GitHub: https://github.com/lNickSoN
-- Hashnode: https://steadyops.hashnode.dev/
+- [Yuri Osipov — SteadyOps profile](https://steadyops.best/team/yuri-osipov/)
+- [LinkedIn](https://www.linkedin.com/in/yuri-osipov-0876b0254)
+- [GitHub](https://github.com/lNickSoN)
+- [Hashnode](https://steadyops.hashnode.dev/)
 
 ## Reuse and contribution
 
