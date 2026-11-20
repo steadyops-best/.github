@@ -45,6 +45,8 @@ SteadyOps artifacts follow a consistent operating model:
 
 Use the [PostgreSQL HA and failover review](https://steadyops.best/postgresql-ha-review/) when failover, restore, Patroni, PgBouncer, or routing is uncertain. For other production risks, start with the [SteadyOps reliability case library](https://steadyops.best/reliability-cases/) and choose the closest operating scenario.
 
+For a storefront or booking app, start with the customer flow a release could break. [WebOps Plus for active web apps](https://steadyops.best/webops-plus/) explains what to check around checkout, payments, bookings, and escalation.
+
 ## Author and public identity
 
 SteadyOps is led by Yuri Osipov, Founder & Principal DevOps/SRE.
